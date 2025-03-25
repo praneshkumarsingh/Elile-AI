@@ -208,7 +208,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon1.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -230,7 +230,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon2.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -252,7 +252,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon3.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -273,7 +273,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon4.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -295,7 +295,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon5.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -316,7 +316,7 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon.png" className="img-fluid" />
+                  <img src="/img/service-icon6.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
