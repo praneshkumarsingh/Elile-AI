@@ -29,7 +29,7 @@ const DomainDetails = () => {
         </div>
       </section>
 
-      <section className="service-about">
+      <section className="domain-wrapper">
         <div className="container">
           <Domains />
         </div>

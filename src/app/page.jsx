@@ -1,5 +1,4 @@
 import React from "react";
-import "./page.css";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
 import { Testimonial } from "./components/Testimonial";
@@ -118,7 +117,7 @@ function page() {
                 <ul className="list-unstyled">
                   <li>
                     <div className="icon">
-                      <img src="/img/startup.png" className="img-fluid" />
+                      <img src="/img/1.png" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
@@ -134,7 +133,7 @@ function page() {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/img/team.png" className="img-fluid" />
+                      <img src="/img/2.png" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">

@@ -1,5 +1,4 @@
 import React from "react";
-import "./page.css";
 import { Journey } from "../components/Journey";
 import { Capability } from "../components/Capability";
 import Link from "next/link";
