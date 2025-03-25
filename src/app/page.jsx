@@ -212,7 +212,10 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">Agentic AI Solutions </Link>
+                    <Link href="service-details">
+                      Agentic AI <br />
+                      Solutions
+                    </Link>
                   </h4>
                   <p>
                     Deploy interconnected AI agents that collaborate,
@@ -231,7 +234,10 @@ function page() {
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">Autonomous Operations</Link>
+                    <Link href="service-details">
+                      Autonomous <br />
+                      Operations
+                    </Link>
                   </h4>
                   <p>
                     AI solutions to eliminate inefficiencies and reduce human

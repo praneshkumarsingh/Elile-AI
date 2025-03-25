@@ -39,7 +39,7 @@ export const Domains = () => {
                     orientation, mitigates shading losses, and autonomously
                     adjusts power distribution, ensuring higher energy output,
                     lower maintenance costs, and seamless grid
-                    integration—making solar farms more resilient, adaptive, and
+                    integration-making solar farms more resilient, adaptive, and
                     scalable.
                   </p>
                 </div>
