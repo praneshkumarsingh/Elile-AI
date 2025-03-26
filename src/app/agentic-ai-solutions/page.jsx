@@ -218,12 +218,12 @@ const ServiceDetail = () => {
                   teammates that learn and execute at scale.
                 </p>
                 <div className="mt-2">
-                  <a className="default-btn" href="#!">
+                  <Link className="default-btn" href="/contact">
                     Get in Touch
-                  </a>
-                  <a className="default-btn style-two ms-4" href="/about">
+                  </Link>
+                  <Link className="default-btn style-two ms-4" href="/about">
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

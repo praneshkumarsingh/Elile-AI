@@ -18,18 +18,24 @@ const Footer = () => {
                   <div className="footer-social mt-5">
                     <ul className="list-unstyled">
                       <li>
-                        <Link href="http://facebook.com">
-                          <i className="fab fa-facebook-f"></i>
+                        <Link
+                          href="https://www.linkedin.com/company/elile-ai-corporation/?viewAsMember=true"
+                          target="_blank"
+                        >
+                          <i className="fa-brands fa-linkedin-in"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link href="http://twitter.com">
-                          <i className="fab fa-twitter"></i>
+                        <Link
+                          href="https://www.youtube.com/@TheReal_ElileAI"
+                          target="_blank"
+                        >
+                          <i className="fa-brands fa-youtube"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link href="http://linkedin.com">
-                          <i className="fab fa-linkedin-in"></i>
+                        <Link href="mailto:info@elile.ai">
+                          <i className="fa-solid fa-envelope"></i>
                         </Link>
                       </li>
                     </ul>

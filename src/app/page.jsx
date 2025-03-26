@@ -225,7 +225,7 @@ function page() {
                   Possibilities with autonomous AI systems
                 </h2>
                 <div className="service-btn">
-                  <Link href="#!">Explore More</Link>
+                  <Link href="/about">Explore More</Link>
                 </div>
               </div>
             </div>

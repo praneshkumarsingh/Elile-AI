@@ -65,7 +65,7 @@ const page = () => {
                   environments.
                 </p>
                 <div className="about-grid-info">
-                  <Link href="/about" className="btn-round-animation">
+                  <Link href="/contact" className="btn-round-animation">
                     Discover More <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                   <ul className="list-info-item list-unstyled">
@@ -251,25 +251,42 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="facebook">
-                            <Link href="#">
+                            <Link
+                              href="https://www.facebook.com/profile.php?id=61571185898321"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-facebook-f"></i>
                             </Link>
                           </li>
-                          <li className="twitter">
-                            <Link href="#">
+                          <li className="linkedin">
+                            <Link
+                              href="https://www.linkedin.com/in/dr-muhammad-mehdi01/"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
-                          <li className="youtube">
-                            <Link href="#">
+                          <li className="twitter">
+                            <Link
+                              href="https://x.com/drmuhamadmehdi?fbclid=IwY2xjawJRLcRleHRuA2FlbQIxMAABHXTWW1H3EFCzlk7Bwsi3ySn9eMfnGUpu5N14aTlY_P-PjNgeAqDEnRje4w_aem_jaUVcP86rWR6PGXwNaSTSA"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-twitter"></i>
+                            </Link>
+                          </li>
+                          <li className="instagram">
+                            <Link
+                              href="https://www.instagram.com/muhammad_mehdi_dr/?fbclid=IwY2xjawJRLZBleHRuA2FlbQIxMAABHaICF1eyPHV0PXCfRFI5hyhJK_5RR9rCqJafj8ngnzEVV-rImgOzGYX_Kw_aem_6I6weWGfouH9CAa4zLFRHg#"
+                              target="_blank"
+                            >
+                              <i className="fa-brands fa-instagram"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
                       <h4>
@@ -287,7 +304,7 @@ const page = () => {
                   <img
                     decoding="async"
                     src="/img/team/2.jpg"
-                    alt="Dilabs"
+                    alt=""
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -296,20 +313,21 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="linkedin">
-                            <Link href="#">
+                            <Link
+                              href="https://www.linkedin.com/in/tazia-mehdi/"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>
-                        <Link href="/">Tazia Mehdi</Link>
-                      </h4>
+                      <h4>Tazia Mehdi</h4>
                       <span>Director of Operations</span>
                     </div>
                   </div>
@@ -331,20 +349,21 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="linkedin">
-                            <Link href="#">
+                            <Link
+                              href="https://www.linkedin.com/in/eperot/"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>
-                        <Link href="/">Emma Perot</Link>
-                      </h4>
+                      <h4>Emma Perot</h4>
                       <span>IP Manager</span>
                     </div>
                   </div>
@@ -366,20 +385,21 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="linkedin">
-                            <Link href="#">
+                            <Link
+                              href="https://www.linkedin.com/in/msanket/"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>
-                        <Link href="/">Sanket Mangrulkar</Link>
-                      </h4>
+                      <h4>Sanket Mangrulkar</h4>
                       <span>Chief Financial Officer</span>
                     </div>
                   </div>
@@ -401,20 +421,21 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="linkedin">
-                            <Link href="#">
+                            <Link
+                              href="https://www.linkedin.com/in/tugbahalici/"
+                              target="_blank"
+                            >
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>
-                        <Link href="/">Tugba H. Soner</Link>
-                      </h4>
+                      <h4>Tugba H. Soner</h4>
                       <span>Director of Product</span>
                     </div>
                   </div>
@@ -436,20 +457,18 @@ const page = () => {
                         <i className="fa-solid fa-binoculars"></i>
                         <ul>
                           <li className="linkedin">
-                            <Link href="#">
+                            <Link href="#" target="_blank">
                               <i className="fa-brands fa-linkedin-in"></i>
                             </Link>
                           </li>
                         </ul>
                       </div>
-                      <Link href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                      </Link>
+                      {/* <Link href="#"> */}
+                      <i className="fa-solid fa-envelope"></i>
+                      {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>
-                        <Link href="/">Ali Wahab</Link>
-                      </h4>
+                      <h4>Ali Wahab</h4>
                       <span>Software Engineer </span>
                     </div>
                   </div>

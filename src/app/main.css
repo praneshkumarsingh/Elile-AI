@@ -376,6 +376,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-bottom p a {
+  color: #FFE788;
+}
+
 footer .widget-title {
   font-weight: 600;
   margin-bottom: 30px;
@@ -1671,7 +1675,7 @@ footer .widget-title {
 }
 
 .team-social .share-link>i,
-.team-social>a {
+.team-social>i {
   display: inline-block;
   background: linear-gradient(90deg, #37b984 20%, #9ccb26 100%);
   color: #fff;
@@ -1708,6 +1712,7 @@ footer .widget-title {
   visibility: visible;
 }
 
+.team-style-one h4,
 .team-style-one h4 a {
   margin-bottom: 5px;
   font-weight: 700;
