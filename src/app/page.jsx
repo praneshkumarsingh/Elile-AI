@@ -91,7 +91,7 @@ function page() {
               </div>
 
               <div className="video-wapper">
-                <video className="video-live" autoPlay loop muted>
+                <video className="video-live" autoPlay loop>
                   <source src="/video.mp4" type="video/mp4" />
                 </video>
                 <Link
