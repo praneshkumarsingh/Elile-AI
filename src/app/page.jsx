@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useRef, useState } from "react";
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
@@ -7,19 +7,21 @@ import { Testimonial } from "./components/Testimonial";
 import Link from "next/link";
 function page() {
   const videoRef = useRef(null);
-  useEffect(() => {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlayPause = (e) => {
+    e.preventDefault(); // Prevents page navigation when clicking the Link
+
     const video = videoRef.current;
     if (video) {
-      video
-        .play()
-        .then(() => {
-          video.muted = false;
-        })
-        .catch((error) => {
-          console.log("Autoplay with sound blocked:", error);
-        });
+      if (isPlaying) {
+        video.pause();
+      } else {
+        video.play();
+      }
+      setIsPlaying(!isPlaying);
     }
-  });
+  };
   return (
     <>
       <section className="hero">
@@ -106,18 +108,25 @@ function page() {
               </div>
 
               <div className="video-wapper">
-                <video className="video-live" autoPlay loop>
+                <video ref={videoRef} className="video-live" autoPlay loop>
                   <source src="/video.mp4" type="video/mp4" />
                 </video>
-                <Link
-                  href="/"
+                {/* Play/Pause Button */}
+                <button
+                  onClick={togglePlayPause}
                   className="popup-youtube video-play-button with-text"
+                  type="button"
                 >
                   <div className="effect"></div>
                   <span>
-                    <i className="fa-solid fa-play"></i> OUR STORY
+                    <i
+                      className={`fa-solid ${
+                        isPlaying ? "fa-pause" : "fa-play"
+                      }`}
+                    ></i>
                   </span>
-                </Link>
+                  <span className="ms-2">Our Story</span>
+                </button>
               </div>
             </div>
           </div>
