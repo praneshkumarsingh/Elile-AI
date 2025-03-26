@@ -7,7 +7,7 @@ const page = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-gray bg-cover"
         style={{
-          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundImage: `url('/img/contact-banner.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",

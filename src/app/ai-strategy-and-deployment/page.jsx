@@ -213,7 +213,7 @@ const ServiceDetail = () => {
               <div className="cta-inner text-center">
                 <h2>
                   Need a teammate engineered
-                  <br /> or your business?
+                  <br /> for your business?
                 </h2>
                 <p className="desc">
                   Empower your operations with Agentic AI - autonomous, adaptive

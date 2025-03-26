@@ -37,7 +37,7 @@ const page = () => {
               <div className="about-thumb">
                 <img
                   decoding="async"
-                  src="/img/about/4.jpg"
+                  src="/img/about/2.png"
                   alt="Image Not Found"
                   className="img-fluid"
                 />

@@ -208,11 +208,11 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon1.png" className="img-fluid" />
+                  <img src="/img/service-1.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">
+                    <Link href="/agentic-ai-solutions">
                       Agentic AI <br />
                       Solutions
                     </Link>
@@ -221,7 +221,7 @@ function page() {
                     Deploy interconnected AI agents that collaborate,
                     strategize, and optimize.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link href="/agentic-ai-solutions" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -230,11 +230,11 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon2.png" className="img-fluid" />
+                  <img src="/img/service-2.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">
+                    <Link href="/autonomous-operations">
                       Autonomous <br />
                       Operations
                     </Link>
@@ -243,7 +243,7 @@ function page() {
                     AI solutions to eliminate inefficiencies and reduce human
                     intervention.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link href="/autonomous-operations" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -252,11 +252,11 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon3.png" className="img-fluid" />
+                  <img src="/img/service-3.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">
+                    <Link href="/ai-driven-adaptive-systems">
                       AI- Driven Adaptive Systems
                     </Link>
                   </h4>
@@ -264,7 +264,7 @@ function page() {
                     Solutions that evolve with real-time data and changing
                     operational conditions.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link href="/ai-driven-adaptive-systems" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -273,11 +273,11 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon4.png" className="img-fluid" />
+                  <img src="/img/service-4.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">
+                    <Link href="/predictive-alerts-and-fault-prevention">
                       Predictive Alerts & <br />
                       Fault Prevention
                     </Link>
@@ -286,7 +286,10 @@ function page() {
                     Proactive anomaly detection, reducing failures and
                     maximizing asset lifespan.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link
+                    href="/predictive-alerts-and-fault-prevention"
+                    className="icon-btn"
+                  >
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -295,11 +298,11 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon5.png" className="img-fluid" />
+                  <img src="/img/service-5.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">
+                    <Link href="/critical-industrial-and-energy-systems">
                       Critical Industrial & Energy Systems
                     </Link>
                   </h4>
@@ -307,7 +310,10 @@ function page() {
                     Solutions for data centers, renewable energy, and
                     mission-critical industries.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link
+                    href="/critical-industrial-and-energy-systems"
+                    className="icon-btn"
+                  >
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>
@@ -316,17 +322,19 @@ function page() {
             <div className="col-lg-3">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-icon6.png" className="img-fluid" />
+                  <img src="/img/service-6.png" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
-                    <Link href="service-details">AI Strategy & Deployment</Link>
+                    <Link href="/ai-strategy-and-deployment">
+                      AI Strategy & Deployment
+                    </Link>
                   </h4>
                   <p>
                     AI products built for large-scale scalability, and
                     measurable industry impact.
                   </p>
-                  <Link href="service-details" className="icon-btn">
+                  <Link href="/ai-strategy-and-deployment" className="icon-btn">
                     <i className="fas fa-arrow-right"></i>
                   </Link>
                 </div>

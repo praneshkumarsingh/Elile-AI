@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+
 const Footer = () => {
   return (
     <>
@@ -16,19 +18,19 @@ const Footer = () => {
                   <div className="footer-social mt-5">
                     <ul className="list-unstyled">
                       <li>
-                        <a href="http://facebook.com">
+                        <Link href="http://facebook.com">
                           <i className="fab fa-facebook-f"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="http://twitter.com">
+                        <Link href="http://twitter.com">
                           <i className="fab fa-twitter"></i>
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="http://linkedin.com">
+                        <Link href="http://linkedin.com">
                           <i className="fab fa-linkedin-in"></i>
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -40,22 +42,22 @@ const Footer = () => {
                   <div className="menu-company-container">
                     <ul className="list-unstyled">
                       <li className="menu-item">
-                        <a href="/">Home</a>
+                        <Link href="/">Home</Link>
                       </li>
                       <li className="menu-item">
-                        <a href="/about">About</a>
+                        <Link href="/about">About</Link>
                       </li>
                       <li className="menu-item">
-                        <a href="/domains">Domains</a>
+                        <Link href="/domains">Domains</Link>
                       </li>
                       <li className="menu-item">
-                        <a href="/our-ceo">Meet Our CEO</a>
+                        <Link href="/our-ceo">Meet Our CEO</Link>
                       </li>
                       {/* <li className="menu-item">
-                        <a href="/expertise">Our Expertise</a>
+                        <Link href="/expertise">Our Expertise</Link>
                       </li> */}
                       <li className="menu-item">
-                        <a href="/contact">Contact</a>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </div>
@@ -75,13 +77,13 @@ const Footer = () => {
                     <li>
                       <div className="content">
                         <strong>Email:</strong>
-                        <a href="mailto:info@elile.ai">info@elile.ai</a>
+                        <Link href="mailto:info@elile.ai">info@elile.ai</Link>
                       </div>
                     </li>
                     <li>
                       <div className="content">
                         <strong>Phone:</strong>
-                        <a href="tel:016174707070">+1 617.470.7070</a>
+                        <Link href="tel:016174707070">+1 617.470.7070</Link>
                       </div>
                     </li>
                   </ul>
@@ -119,9 +121,9 @@ const Footer = () => {
               <div className="col-lg-12">
                 <p className="mb-0">
                   Copyright 2025. All Rights Reserved by
-                  <a href="/" className="ms-2 text-primery">
+                  <Link href="/" className="ms-2 text-primery">
                     ELILE AI.
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>

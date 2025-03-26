@@ -910,9 +910,9 @@ footer .widget-title {
   margin-bottom: 0;
 }
 
-.benfit-inner {
+/* .benfit-inner {
   margin-top: 40px;
-}
+} */
 
 .cta-inner {
   background-color: #F3F8F4;
@@ -1059,7 +1059,7 @@ footer .widget-title {
   position: absolute;
   right: 35px;
   bottom: 35px;
-  color: #084838
+  color: #fff
 }
 
 .story-title h3 {
@@ -1388,12 +1388,12 @@ footer .widget-title {
   position: relative;
   z-index: 1;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  /* min-height: 367px; */
+  min-height: 367px;
   margin-bottom: 30px;
 }
 
 .service-box .icon img {
-  height: 70px;
+  height: 75px;
   margin-bottom: 30px;
   transition: all 0.35s ease-in-out;
 }
@@ -1482,7 +1482,7 @@ footer .widget-title {
 }
 
 .service-box:hover .icon img {
-  height: 60px;
+  height: 65px;
   transform: translateY(-20px);
 }
 

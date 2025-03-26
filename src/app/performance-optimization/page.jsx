@@ -9,7 +9,7 @@ const Page = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundImage: `url('/img/performance-optimization-banner.png')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
@@ -139,7 +139,7 @@ const Page = () => {
                 <ul className="list-unstyled">
                   <li>
                     <div className="icon">
-                      <img src="/img/startup.png" className="img-fluid" />
+                      <img src="/img/1.png" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
@@ -155,7 +155,7 @@ const Page = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/img/team.png" className="img-fluid" />
+                      <img src="/img/2.png" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
