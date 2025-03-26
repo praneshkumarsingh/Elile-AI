@@ -1,10 +1,25 @@
+"use client";
+import { useEffect, useRef } from "react";
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { BsArrowRight } from "react-icons/bs";
 import { Testimonial } from "./components/Testimonial";
 import Link from "next/link";
-
 function page() {
+  const videoRef = useRef(null);
+  useEffect(() => {
+    const video = videoRef.current;
+    if (video) {
+      video
+        .play()
+        .then(() => {
+          video.muted = false;
+        })
+        .catch((error) => {
+          console.log("Autoplay with sound blocked:", error);
+        });
+    }
+  });
   return (
     <>
       <section className="hero">
