@@ -32,8 +32,6 @@ a {
 .default-btn {
   background-color: #084838;
   border-radius: 8px;
-  transform: none;
-  transform-origin: 50% 50% 0px;
   color: #ffffff;
   font-weight: 600;
   font-size: 16px;

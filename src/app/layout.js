@@ -1,4 +1,5 @@
 import "./main.css";
+import "./responsive.css";
 import Header from "./common/header";
 import Footer from "./common/footer";
 

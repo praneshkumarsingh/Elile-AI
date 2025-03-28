@@ -1,0 +1,272 @@
+@media only screen and (min-width:300px) and (max-width:767px) {
+
+  /* Default css */
+  .default-btn {
+    font-size: 14px;
+    padding: 11px 15px;
+  }
+
+  .section-gap {
+    padding: 40px 0px;
+  }
+
+  /* Navbar css */
+
+  .custom-navbar .container-fluid {
+    margin: auto;
+  }
+
+  .navbar-brand img {
+    max-width: 100px;
+    height: 72px;
+  }
+
+
+  .navbar-collapse {
+    position: fixed;
+    top: 85px;
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #084838;
+    transition: visibility .4s ease-in-out, transform .4s ease-in-out;
+    height: 100%;
+    padding-top: 10px;
+  }
+
+  .navbar-collapse.show {
+    visibility: visible;
+    transform: translateX(-100%)
+  }
+
+  /* Home Page css */
+
+  .home-content {
+    top: 9rem;
+  }
+
+  .home-content h1 {
+    font-size: clamp(30px, 4vw, 60px);
+    font-weight: 600;
+    line-height: 122.667%;
+    margin-bottom: 20px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .story-wapper {
+    padding: 30px 15px 30px 15px;
+    margin-right: 0;
+  }
+
+  .check-list-item li {
+    gap: 15px;
+  }
+
+  .icon-wapper {
+    height: 35px;
+    min-width: 35px;
+    line-height: 36px;
+  }
+
+  .story-wapper .content p {
+    font-size: 15px;
+  }
+
+  .story-title h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 24px;
+  }
+
+  .story-title h3 br {
+    display: none;
+  }
+
+  .our-story .video-wapper {
+    min-height: 245px;
+  }
+
+  .video-play-button.with-text .effect {
+    height: 40px;
+    width: 40px;
+  }
+
+  .our-story .video-play-button {
+    right: 15px;
+    bottom: 24px;
+  }
+
+  .video-play-button i {
+    font-size: 14px;
+    left: -2px;
+    top: -9px;
+  }
+
+  .video-play-button.with-text span i {
+    width: 44px;
+  }
+
+  .top-9 {
+    top: -9px;
+  }
+
+  .achivement-counter {
+    padding: 20px;
+  }
+
+  .achivement-counter li .icon {
+    margin-right: 20px;
+    height: 65px;
+    width: 65px;
+    display: flex;
+  }
+
+  .achivement-counter .fun-fact .medium {
+    font-size: 15px;
+  }
+
+  .achivement-counter .fun-fact .counter {
+    font-size: 40px;
+  }
+
+  .choose-caption {
+    margin-top: 24px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .list-check li {
+    font-size: 14px;
+  }
+
+  .service-caption {
+    padding: 30px 15px;
+    margin-bottom: 24px;
+
+  }
+
+  .service-caption .title {
+    font-size: 28px;
+  }
+
+  .service-caption a {
+    padding: 13px 30px;
+    font-size: 14px;
+  }
+
+  .service-btn::after {
+    left: 165px;
+  }
+
+  .service-box {
+    padding: 32px 20px 22px 20px;
+    min-height: 310px;
+    margin-bottom: 24px;
+  }
+
+  .service-box h4 a br {
+    display: none;
+  }
+
+  .brand-item {
+    height: 75px;
+    width: 155px;
+    padding: 0 0px;
+  }
+
+  .brand-item img {
+    height: 75px;
+  }
+
+  .brand-wrap {
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+  .testimonial-item-top {
+    padding: 24px 15px 24px;
+  }
+
+  .testimonial-item-top p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .testimonial-item-top p {
+    font-size: 14px;
+  }
+
+  .testimonial-head {
+    padding: 12px 25px;
+  }
+
+  .faq-content .accordion-button {
+    font-size: 16px;
+    padding: 15px 15px;
+    line-height: 1.4;
+  }
+
+  .faq-content .accordion-body {
+    padding: 0 15px 20px 15px;
+  }
+
+  .faq-content .accordion-body p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .faq-caption {
+    margin-bottom: 20px;
+  }
+
+  .footer-about::after {
+    right: -12px;
+    height: 115%;
+    width: 108%;
+    top: -30px;
+  }
+
+  .footer-top {
+    padding-top: 30px;
+    padding-bottom: 35px;
+  }
+
+  .footer-about .logo {
+    height: 65px;
+    margin-bottom: 15px;
+  }
+
+  footer .widget-title {
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+
+  .newsletter form input {
+    min-height: 50px;
+  }
+
+  .newsletter form button {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {}
+
+@media only screen and (min-width:1024px) and (max-width:1260px) {}

@@ -19,6 +19,23 @@ export const Testimonial = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        breakpoints={{
+          320: {
+            // Mobile
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            // Tablet
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            // Desktop
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+        }}
         modules={[Autoplay]}
         className="mySwiper"
       >

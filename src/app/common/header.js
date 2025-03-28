@@ -1,30 +1,30 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+// import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
-  const navRef = useRef(null);
+  // const navRef = useRef(null);
 
-  useEffect(() => {
-    const handleNavClick = (event) => {
-      if (navRef.current && navRef.current.contains(event.target)) {
-        const navbarToggler = document.querySelector(".navbar-toggler");
-        if (navbarToggler && window.innerWidth < 992) {
-          navbarToggler.click(); // Simulate the closing of the navbar
-        }
-      }
-    };
+  // useEffect(() => {
+  //   const handleNavClick = (event) => {
+  //     if (navRef.current && navRef.current.contains(event.target)) {
+  //       const navbarToggler = document.querySelector(".navbar-toggler");
+  //       if (navbarToggler && window.innerWidth < 992) {
+  //         navbarToggler.click(); // Simulate the closing of the navbar
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("click", handleNavClick);
-    return () => {
-      document.removeEventListener("click", handleNavClick);
-    };
-  }, []);
+  //   document.addEventListener("click", handleNavClick);
+  //   return () => {
+  //     document.removeEventListener("click", handleNavClick);
+  //   };
+  // }, []);
 
   return (
     <header className="custom-navbar">
-      <nav className="navbar navbar-expand-lg" ref={navRef}>
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand py-0" href="/">
             <Image src="/logo.png" width={110} height={80} alt="Elile Logo" />

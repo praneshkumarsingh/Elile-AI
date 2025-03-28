@@ -40,7 +40,7 @@ function page() {
                   <h1>
                     Go Beyond Automation with Elile’s Agentic AI Solutions
                   </h1>
-                  <p className="mb-5">
+                  <p className="mb-lg-5 mb-4">
                     Elile builds self-learning, multi-agentic AI models that
                     predict, adapt, and optimize in real time, delivering
                     reliable performance across mission-critical operations.
@@ -50,7 +50,10 @@ function page() {
                     Schedule Call
                     <GoArrowUpRight />
                   </Link>
-                  <Link href="/about" className="default-btn style-two ms-4">
+                  <Link
+                    href="/about"
+                    className="default-btn style-two ms-lg-4 ms-3"
+                  >
                     Learn More
                     <BsArrowRight />
                   </Link>
@@ -101,8 +104,7 @@ function page() {
               <div className="story-title">
                 <h3>
                   From inefficiency to performance
-                  <br />
-                  With the best
+                  <br /> With the best
                   <span> of AI</span>
                 </h3>
               </div>
@@ -125,7 +127,7 @@ function page() {
                       }`}
                     ></i>
                   </span>
-                  <span className="ms-2">Our Story</span>
+                  <span className="ms-2 top-9">Our Story</span>
                 </button>
               </div>
             </div>
@@ -427,7 +429,7 @@ function page() {
               </h3>
             </div>
           </div>
-          <div className="row section-gap">
+          <div className="row section-gap pt-0">
             <div className="col-lg-12">
               <div className="testimonial-carousel">
                 <Testimonial />
