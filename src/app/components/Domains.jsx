@@ -28,7 +28,7 @@ export const Domains = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="choose-us-style-two">
-                <h2 className="title mb-5">
+                <h2 className="title mb-3 mb-lg-5">
                   AI-optimized solar <br /> performance
                 </h2>
                 <div className="domain-desc">
@@ -75,7 +75,7 @@ export const Domains = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="choose-us-style-two">
-                <h2 className="title mb-5">
+                <h2 className="title mb-3 mb-lg-5">
                   Intelligent wind farm
                   <br /> optimization
                 </h2>
@@ -123,7 +123,7 @@ export const Domains = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="choose-us-style-two">
-                <h2 className="title mb-5">
+                <h2 className="title mb-3 mb-lg-5">
                   AI-driven turbine <br /> intelligence
                 </h2>
                 <div className="domain-desc">
@@ -171,7 +171,7 @@ export const Domains = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="choose-us-style-two">
-                <h2 className="title mb-5">
+                <h2 className="title mb-3 mb-lg-5">
                   AI-powered desal <br /> operations
                 </h2>
                 <div className="domain-desc">
@@ -219,7 +219,7 @@ export const Domains = () => {
           <div className="row">
             <div className="col-xl-4">
               <div className="choose-us-style-two">
-                <h2 className="title mb-5">
+                <h2 className="title mb-3 mb-lg-5">
                   Autonomous data center optimization
                 </h2>
                 <div className="domain-desc">

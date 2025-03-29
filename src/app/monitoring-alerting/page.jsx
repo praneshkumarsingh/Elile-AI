@@ -52,7 +52,7 @@ const Page = () => {
 
       <section className="service-advantage">
         <div className="container">
-          <div className="row justify-content-center mb-5">
+          <div className="row justify-content-center mb-0 mb-lg-5">
             <div className="col-lg-12 text-center">
               <h3 className="title">
                 Capabilities for real-time, precision

@@ -237,7 +237,7 @@ export const Testimonial = () => {
             </div>
             <div className="testimonial-head">
               <div className="testimonial-head-info">
-                <h6>Trullium Studios</h6>
+                <h6>Truleum Studios</h6>
               </div>
             </div>
           </div>

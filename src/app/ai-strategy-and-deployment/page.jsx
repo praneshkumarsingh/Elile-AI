@@ -31,8 +31,8 @@ const ServiceDetail = () => {
       <section className="whyChooseSec section-gap mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-xl-6">
-              <div className="whyChoose-caption me-3">
+            <div className="col-xl-6 col-md-6">
+              <div className="whyChoose-caption me-0 me-lg-5 mb-4 mb-lg-0">
                 <h2 className="title mb-4">End-to-end AI Implementation</h2>
                 <p className="desc">
                   Deploying AI is not just about technology - it’s about
@@ -48,14 +48,14 @@ const ServiceDetail = () => {
                   scalable, future-ready solutions with built-in governance and
                   ethical AI compliance.
                 </p>
-                <div className="whyChoose-btn mt-5">
-                  <Link className="default-btn" href="#!">
+                <div className="whyChoose-btn mt-4 mt-lg-5">
+                  <Link className="default-btn" href="tel:+9710563292225">
                     Book A Call
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-6">
+            <div className="col-xl-6 col-md-6">
               <div className="whyChooseSec-box">
                 <h3>Custom AI Frameworks</h3>
                 <p>
@@ -117,7 +117,7 @@ const ServiceDetail = () => {
           <div className="benfit-inner">
             <div className="row">
               <div className="col-lg-6">
-                <div className="benfit-content me-5">
+                <div className="benfit-content me-0 me-lg-5">
                   <p className="desc">
                     Elile’s AI Strategy & Deployment framework delivers
                     custom-engineered AI architectures that seamlessly integrate

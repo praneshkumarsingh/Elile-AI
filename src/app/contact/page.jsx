@@ -31,7 +31,7 @@ const page = () => {
           <div className="row justify-content-center">
             <div className="col-xxl-5 col-xl-6">
               <div className="inner_section-area mb-50 text-center">
-                <h2 className="title mb-5">No challenge, too big for us!</h2>
+                <h2 className="title mb-5">No challenge too big for us!</h2>
               </div>
             </div>
           </div>
@@ -47,10 +47,7 @@ const page = () => {
                   </div>
                   <div className="contact-content">
                     <h4 className="contact-content-title">Let's meet</h4>
-                    <p>
-                      Monday - Friday | 10 AM - 5 PM <br />
-                      Abu Dhabi Office
-                    </p>
+                    <p>Abu Dhabi Office</p>
                   </div>
                 </div>
               </div>
@@ -65,8 +62,7 @@ const page = () => {
                   </div>
                   <div className="contact-content">
                     <h4 className="contact-content-title">Talk to us!</h4>
-                    <Link href="tel:+16174707070">+1 617.470.7070</Link>
-                    {/* <Link href="tel:+239-555-0108">+239-555-0108</Link> */}
+                    <Link href="tel:+9710563292225">+ 971 056.329.2225</Link>
                   </div>
                 </div>
               </div>

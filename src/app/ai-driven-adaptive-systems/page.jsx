@@ -31,8 +31,8 @@ const ServiceDetail = () => {
       <section className="whyChooseSec section-gap mb-5">
         <div className="container">
           <div className="row">
-            <div className="col-xl-6">
-              <div className="whyChoose-caption me-5">
+            <div className="col-xl-6 col-md-6">
+              <div className="whyChoose-caption me-0 me-lg-5 mb-4 mb-lg-0">
                 <h2 className="title mb-4">
                   Adaptive AI for evolving industries
                 </h2>
@@ -50,14 +50,14 @@ const ServiceDetail = () => {
                   adapts to new data streams, and continuously optimizes complex
                   industrial workflows.
                 </p>
-                <div className="whyChoose-btn mt-5">
-                  <Link className="default-btn" href="#!">
+                <div className="whyChoose-btn mt-4 mt-lg-5">
+                  <Link className="default-btn" href="tel:+9710563292225">
                     Book A Call
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="col-xl-6">
+            <div className="col-xl-6 col-md-6">
               <div className="whyChooseSec-box">
                 <h3>Self-Optimizing AI Models</h3>
                 <p>
@@ -119,7 +119,7 @@ const ServiceDetail = () => {
           <div className="benfit-inner">
             <div className="row">
               <div className="col-lg-6">
-                <div className="benfit-content me-5">
+                <div className="benfit-content me-0 me-lg-5">
                   <p className="desc">
                     Elile’s AI-Driven Adaptive Systems integrate reinforcement
                     learning, real-time environmental sensing, and

@@ -102,7 +102,7 @@ const page = () => {
       </section>
       <section className="about-ceo section-gap">
         <div className="container">
-          <div className="row justify-content-center mb-5">
+          <div className="row justify-content-center mb-0 mb-lg-5">
             <div className="col-lg-6 text-center">
               <h3 className="title">Academic background & research</h3>
             </div>

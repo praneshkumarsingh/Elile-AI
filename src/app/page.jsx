@@ -46,7 +46,7 @@ function page() {
                     reliable performance across mission-critical operations.
                   </p>
 
-                  <Link href="tel:016174707070" className="default-btn">
+                  <Link href="tel:+9710563292225" className="default-btn">
                     Schedule Call
                     <GoArrowUpRight />
                   </Link>
@@ -67,7 +67,7 @@ function page() {
       <section className="our-story section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="story-wapper text-light">
                 <ul className="check-list-item list-unstyled">
                   <li>
@@ -100,7 +100,7 @@ function page() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-8">
+            <div className="col-lg-8 col-md-6">
               <div className="story-title">
                 <h3>
                   From inefficiency to performance
@@ -138,7 +138,7 @@ function page() {
       <section className="why-choose section-gap section-bg ">
         <div className="container">
           <div className="row justify-content-between">
-            <div className="col-xl-5 col-lg-5">
+            <div className="col-xl-5 col-lg-5 col-md-5">
               <div className="achivement-counter">
                 <ul className="list-unstyled">
                   <li>
@@ -176,7 +176,7 @@ function page() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 d-flex">
+            <div className="col-lg-6 d-flex col-md-7">
               <div className="align-self-center">
                 <div className="choose-caption">
                   <h2 className="title">
@@ -221,7 +221,7 @@ function page() {
       <section className="our-services section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <div className="service-caption">
                 <h2 className="title">
                   Possibilities with autonomous AI systems
@@ -231,7 +231,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-1.png" className="img-fluid" />
@@ -253,7 +253,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-2.png" className="img-fluid" />
@@ -275,7 +275,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-3.png" className="img-fluid" />
@@ -296,7 +296,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-4.png" className="img-fluid" />
@@ -321,7 +321,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-5.png" className="img-fluid" />
@@ -345,7 +345,7 @@ function page() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
                   <img src="/img/service-6.png" className="img-fluid" />
@@ -389,7 +389,7 @@ function page() {
                   <img src="/img/brand/1.png" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/2.png" alt="Image Not Found" />
+                  <img src="/img/brand/6.png" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
                   <img src="/img/brand/3.png" alt="Image Not Found" />
@@ -401,7 +401,7 @@ function page() {
                   <img src="/img/brand/5.png" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/6.png" alt="Image Not Found" />
+                  <img src="/img/brand/2.png" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
                   <img src="/img/brand/7.png" alt="Image Not Found" />

@@ -1,30 +1,35 @@
 "use client";
-// import React, { useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
-  // const navRef = useRef(null);
+  const [isOpen, setIsOpen] = useState(false);
 
-  // useEffect(() => {
-  //   const handleNavClick = (event) => {
-  //     if (navRef.current && navRef.current.contains(event.target)) {
-  //       const navbarToggler = document.querySelector(".navbar-toggler");
-  //       if (navbarToggler && window.innerWidth < 992) {
-  //         navbarToggler.click(); // Simulate the closing of the navbar
-  //       }
-  //     }
-  //   };
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
 
-  //   document.addEventListener("click", handleNavClick);
-  //   return () => {
-  //     document.removeEventListener("click", handleNavClick);
-  //   };
-  // }, []);
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <header className="custom-navbar">
-      <nav className="navbar navbar-expand-lg">
+      <nav className={`navbar navbar-expand-lg ${scrolled ? "scrolled" : ""}`}>
         <div className="container-fluid">
           <a className="navbar-brand py-0" href="/">
             <Image src="/logo.png" width={110} height={80} alt="Elile Logo" />
@@ -37,10 +42,23 @@ const Header = () => {
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={toggleNavbar}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span
+              className={`navbar-toggler-icon ${isOpen ? "close" : ""}`}
+            ></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+            id="navbarSupportedContent"
+          >
+            <Image
+              src="/logo.png"
+              width={110}
+              height={80}
+              alt="Elile Logo"
+              className="mobile-logo"
+            />
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" href="/">

@@ -119,7 +119,7 @@ const page = () => {
       {/* ----------- Journey Banner --------- */}
       <section className="journey-area">
         <div className="container">
-          <div className="row mb-5 align-items-end">
+          <div className="row mb-4 mb-lg-5 align-items-end">
             <div className="col-xl-6 col-lg-7 col-md-8 col-sm-9">
               <div className="h4_section-area mb-20">
                 <h2 className="title tp_title_slideup mb-0">
@@ -151,7 +151,7 @@ const page = () => {
         <div className="container">
           <div className="row align-center">
             <div className="col-lg-4 col-md-6 ">
-              <div className="feature-style-one cont">
+              <div className="feature-style-one ">
                 <div className="info">
                   <h4>Mission & Vision</h4>
                   <p>
@@ -167,7 +167,7 @@ const page = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 ">
-              <div className="feature-style-one cont">
+              <div className="feature-style-one">
                 <div className="info">
                   <h4>Asset Management</h4>
                   <p>
@@ -183,7 +183,7 @@ const page = () => {
               </div>
             </div>
             <div className="col-lg-4 col-md-6 ">
-              <div className="feature-style-one cont">
+              <div className="feature-style-one">
                 <div className="info">
                   <h4>AI for Industrial Resilience </h4>
                   <p>
@@ -202,7 +202,7 @@ const page = () => {
         </div>
       </section>
       {/* ----------- Capability Banner --------- */}
-      <section className="capability-area section-gap">
+      <section className="capability-area section-gap pt-0">
         <div className="container">
           <div className="case-carousel swiper">
             <div className="heading-left">
@@ -303,8 +303,8 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/2.jpg"
-                    alt=""
+                    src="/img/team/4.jpg"
+                    alt="Dilabs"
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -314,7 +314,7 @@ const page = () => {
                         <ul>
                           <li className="linkedin">
                             <Link
-                              href="https://www.linkedin.com/in/tazia-mehdi/"
+                              href="https://www.linkedin.com/in/msanket/"
                               target="_blank"
                             >
                               <i className="fa-brands fa-linkedin-in"></i>
@@ -327,8 +327,8 @@ const page = () => {
                       {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>Tazia Mehdi</h4>
-                      <span>Director of Operations</span>
+                      <h4>Sanket Mangrulkar</h4>
+                      <span>Chief Financial Officer</span>
                     </div>
                   </div>
                 </div>
@@ -375,8 +375,8 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/4.jpg"
-                    alt="Dilabs"
+                    src="/img/team/2.jpg"
+                    alt=""
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -386,7 +386,7 @@ const page = () => {
                         <ul>
                           <li className="linkedin">
                             <Link
-                              href="https://www.linkedin.com/in/msanket/"
+                              href="https://www.linkedin.com/in/tazia-mehdi/"
                               target="_blank"
                             >
                               <i className="fa-brands fa-linkedin-in"></i>
@@ -399,8 +399,8 @@ const page = () => {
                       {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>Sanket Mangrulkar</h4>
-                      <span>Chief Financial Officer</span>
+                      <h4>Tazia Mehdi</h4>
+                      <span>Director of Operations</span>
                     </div>
                   </div>
                 </div>
@@ -455,21 +455,14 @@ const page = () => {
                     <div className="team-social">
                       <div className="share-link">
                         <i className="fa-solid fa-binoculars"></i>
-                        <ul>
-                          <li className="linkedin">
-                            <Link href="#" target="_blank">
-                              <i className="fa-brands fa-linkedin-in"></i>
-                            </Link>
-                          </li>
-                        </ul>
                       </div>
                       {/* <Link href="#"> */}
                       <i className="fa-solid fa-envelope"></i>
                       {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>Ali Wahab</h4>
-                      <span>Software Engineer </span>
+                      <h4>Debasish Dash</h4>
+                      <span>Advisor</span>
                     </div>
                   </div>
                 </div>
