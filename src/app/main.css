@@ -379,6 +379,7 @@ footer {
   padding: 15px 0;
   position: relative;
   z-index: 1;
+  background-color: #084838;
 }
 
 .bg-dark.footer-bottom a {
@@ -1464,7 +1465,7 @@ footer .widget-title {
 
 .brand-item img {
   object-fit: cover;
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
 }
 

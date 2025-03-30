@@ -33,7 +33,7 @@ const ServiceDetail = () => {
           <div className="row">
             <div className="col-xl-6 col-md-6">
               <div className="whyChoose-caption me-0 me-lg-5 mb-4 mb-lg-0">
-                <h2 className="title mb-4">End-to-end AI Implementation</h2>
+                <h2 className="title mb-4">End-to-end AI implementation</h2>
                 <p className="desc">
                   Deploying AI is not just about technology - it’s about
                   strategic implementation, understanding your exact business

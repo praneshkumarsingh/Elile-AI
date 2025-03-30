@@ -283,9 +283,9 @@ const page = () => {
                           </li>
                         </ul>
                       </div>
-                      {/* <Link href="#"> */}
-                      <i className="fa-solid fa-envelope"></i>
-                      {/* </Link> */}
+                      <Link href="mailto:mehdi@elile.ai">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
                     </div>
                     <div className="content">
                       <h4>
@@ -320,9 +320,9 @@ const page = () => {
                           </li>
                         </ul>
                       </div>
-                      {/* <Link href="#"> */}
-                      <i className="fa-solid fa-envelope"></i>
-                      {/* </Link> */}
+                      <Link href="mailto:sanket@elile.ai">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
                     </div>
                     <div className="content">
                       <h4>Sanket Mangrulkar</h4>
@@ -355,7 +355,7 @@ const page = () => {
                           </li>
                         </ul>
                       </div>
-                      {/* <Link href="#"> */}
+                      {/* <Link href=""> */}
                       <i className="fa-solid fa-envelope"></i>
                       {/* </Link> */}
                     </div>
@@ -391,9 +391,9 @@ const page = () => {
                           </li>
                         </ul>
                       </div>
-                      {/* <Link href="#"> */}
-                      <i className="fa-solid fa-envelope"></i>
-                      {/* </Link> */}
+                      <Link href="mailto:tazia@elile.ai">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
                     </div>
                     <div className="content">
                       <h4>Tazia Mehdi</h4>
@@ -426,9 +426,9 @@ const page = () => {
                           </li>
                         </ul>
                       </div>
-                      {/* <Link href="#"> */}
-                      <i className="fa-solid fa-envelope"></i>
-                      {/* </Link> */}
+                      <Link href="mailto:tugba@elile.ai">
+                        <i className="fa-solid fa-envelope"></i>
+                      </Link>
                     </div>
                     <div className="content">
                       <h4>Tugba H. Soner</h4>

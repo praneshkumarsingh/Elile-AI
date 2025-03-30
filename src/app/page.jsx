@@ -37,9 +37,7 @@ function page() {
                   <span className="sub-title">
                     AI-POWERED OPERATIONS FOR TRUE AUTONOMY
                   </span>
-                  <h1>
-                    Go Beyond Automation with Elile’s Agentic AI Solutions
-                  </h1>
+                  <h1>Go Beyond Automation with Elile Agentic AI Solutions</h1>
                   <p className="mb-lg-5 mb-4">
                     Elile builds self-learning, multi-agentic AI models that
                     predict, adapt, and optimize in real time, delivering

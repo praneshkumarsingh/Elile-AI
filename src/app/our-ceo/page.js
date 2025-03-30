@@ -40,7 +40,7 @@ const page = () => {
               <div className="about-image custom-layout">
                 <div className="image">
                   <img
-                    src="/img/team/1.webp"
+                    src="/img/profile.webp"
                     alt="About Me"
                     className="img-fluid"
                   />
@@ -113,7 +113,7 @@ const page = () => {
                 <div className="info">
                   <p>
                     Doctor of Philosophy (Ph.D.) in Operations Research from
-                    Boston University (2011), with a{" "}
+                    Boston University (2011), with a
                     <Link
                       className="me-1"
                       href="https://www.proquest.com/openview/3d2e2c713e481828eff4c140dda29734/1?pq-origsite=gscholar&amp;cbl=18750"
