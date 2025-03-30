@@ -11,7 +11,7 @@ const page = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundImage: `url('/img/about-banner.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
@@ -40,7 +40,7 @@ const page = () => {
               <div className="about-image custom-layout">
                 <div className="image">
                   <img
-                    src="https://elile.ai/assets/img/profile.jpg"
+                    src="/img/team/1.webp"
                     alt="About Me"
                     className="img-fluid"
                   />

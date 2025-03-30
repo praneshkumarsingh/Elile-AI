@@ -31,7 +31,7 @@ export const Capability = () => {
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
-                  <img src="/img/gallery/1.png" alt="Image Not Found" />
+                  <img src="/img/gallery/1.webp" alt="Image Not Found" />
                 </div>
               </div>
               <div className="col-xl-6">
@@ -62,7 +62,7 @@ export const Capability = () => {
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
-                  <img src="/img/gallery/2.png" alt="Image Not Found" />
+                  <img src="/img/gallery/2.webp" alt="Image Not Found" />
                 </div>
               </div>
               <div className="col-xl-6">
@@ -90,7 +90,7 @@ export const Capability = () => {
             <div className="row">
               <div className="col-xl-6">
                 <div className="case-thumb">
-                  <img src="/img/gallery/3.png" alt="Image Not Found" />
+                  <img src="/img/gallery/3.webp" alt="Image Not Found" />
                 </div>
               </div>
               <div className="col-xl-6">

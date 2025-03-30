@@ -9,7 +9,7 @@ const DomainDetails = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/domain-banner.png')`,
+          backgroundImage: `url('/img/domain-banner.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",

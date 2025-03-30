@@ -10,7 +10,7 @@ const page = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/about-banner.png')`,
+          backgroundImage: `url('/img/about-banner.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
@@ -37,13 +37,13 @@ const page = () => {
               <div className="about-thumb">
                 <img
                   decoding="async"
-                  src="/img/about/2.png"
+                  src="/img/about/2.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
                 <div className="experience">
                   <h2>
-                    <strong>18</strong> Years Experience
+                    <strong>15</strong> Years Experience
                   </h2>
                 </div>
               </div>
@@ -241,8 +241,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/1.jpg"
-                    alt="Dilabs"
+                    src="/img/team/1.webp"
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -303,8 +302,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/4.jpg"
-                    alt="Dilabs"
+                    src="/img/team/4.webp"
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -339,8 +337,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/3.jpg"
-                    alt="Dilabs"
+                    src="/img/team/3.webp"
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -363,7 +360,7 @@ const page = () => {
                       {/* </Link> */}
                     </div>
                     <div className="content">
-                      <h4>Emma Perot</h4>
+                      <h4>Dr Emma Perot</h4>
                       <span>IP Manager</span>
                     </div>
                   </div>
@@ -375,7 +372,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/2.jpg"
+                    src="/img/team/2.webp"
                     alt=""
                     className="img-fluid"
                   />
@@ -411,8 +408,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/6.jpg"
-                    alt="Dilabs"
+                    src="/img/team/6.webp"
                     className="img-fluid"
                   />
                   <div className="team-info">
@@ -447,8 +443,7 @@ const page = () => {
                 <div className="thumb">
                   <img
                     decoding="async"
-                    src="/img/team/5.jpg"
-                    alt="Dilabs"
+                    src="/img/team/5.webp"
                     className="img-fluid"
                   />
                   <div className="team-info">

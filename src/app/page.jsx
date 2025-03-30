@@ -143,7 +143,7 @@ function page() {
                 <ul className="list-unstyled">
                   <li>
                     <div className="icon">
-                      <img src="/img/1.png" className="img-fluid" />
+                      <img src="/img/1.webp" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
@@ -159,7 +159,7 @@ function page() {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/img/2.png" className="img-fluid" />
+                      <img src="/img/2.webp" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
@@ -234,7 +234,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-1.png" className="img-fluid" />
+                  <img src="/img/service-1.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -256,7 +256,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-2.png" className="img-fluid" />
+                  <img src="/img/service-2.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -278,7 +278,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-3.png" className="img-fluid" />
+                  <img src="/img/service-3.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -299,7 +299,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-4.png" className="img-fluid" />
+                  <img src="/img/service-4.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -324,7 +324,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-5.png" className="img-fluid" />
+                  <img src="/img/service-5.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -348,7 +348,7 @@ function page() {
             <div className="col-lg-3 col-md-6">
               <div className="service-box">
                 <div className="icon">
-                  <img src="/img/service-6.png" className="img-fluid" />
+                  <img src="/img/service-6.webp" className="img-fluid" />
                 </div>
                 <div className="content">
                   <h4>
@@ -386,31 +386,31 @@ function page() {
             <div className="col-lg-12">
               <div className="brand-wrap">
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/1.png" alt="Image Not Found" />
+                  <img src="/img/brand/1.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/6.png" alt="Image Not Found" />
+                  <img src="/img/brand/6.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/3.png" alt="Image Not Found" />
+                  <img src="/img/brand/3.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/4.png" alt="Image Not Found" />
+                  <img src="/img/brand/4.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/5.png" alt="Image Not Found" />
+                  <img src="/img/brand/5.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/2.png" alt="Image Not Found" />
+                  <img src="/img/brand/2.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/7.png" alt="Image Not Found" />
+                  <img src="/img/brand/7.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/8.png" alt="Image Not Found" />
+                  <img src="/img/brand/8.webp" alt="Image Not Found" />
                 </div>
                 <div className="brand-item tp_fade_bottom">
-                  <img src="/img/brand/9.png" alt="Image Not Found" />
+                  <img src="/img/brand/9.webp" alt="Image Not Found" />
                 </div>
               </div>
             </div>
@@ -424,7 +424,7 @@ function page() {
             <div className="col-lg-8 text-center">
               <h3 className="title">
                 Here’s what they say <br />
-                <img src="/img/testimonial/author.png" className="img-fluid" />
+                <img src="/img/testimonial/author.webp" className="img-fluid" />
                 about us!
               </h3>
             </div>

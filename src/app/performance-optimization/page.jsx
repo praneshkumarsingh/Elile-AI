@@ -9,7 +9,7 @@ const Page = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/performance-optimization-banner.png')`,
+          backgroundImage: `url('/img/performance-optimization-banner.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
@@ -41,7 +41,7 @@ const Page = () => {
             <div className="col-lg-6 col-md-10">
               <div className="service-tab-img">
                 <img
-                  src="/img/performance-dashboard.png"
+                  src="/img/performance-dashboard.webp"
                   className="img-fluid"
                 />
               </div>
@@ -139,7 +139,7 @@ const Page = () => {
                 <ul className="list-unstyled">
                   <li>
                     <div className="icon">
-                      <img src="/img/1.png" className="img-fluid" />
+                      <img src="/img/1.webp" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">
@@ -155,7 +155,7 @@ const Page = () => {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="/img/2.png" className="img-fluid" />
+                      <img src="/img/2.webp" className="img-fluid" />
                     </div>
                     <div className="fun-fact">
                       <div className="counter">

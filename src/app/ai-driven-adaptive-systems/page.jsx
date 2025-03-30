@@ -8,7 +8,7 @@ const ServiceDetail = () => {
       <section
         className="breadcrumb-area custom-breadcrumb bg-green bg-cover"
         style={{
-          backgroundImage: `url('/img/ai-driven-adaptive.png')`,
+          backgroundImage: `url('/img/ai-driven-adaptive.webp')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",

@@ -17,7 +17,7 @@ body {
 }
 
 .section-bg {
-  background-image: url("/img/bg.jpg");
+  background-image: url("/img/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@ footer {
 .footer-custom {
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-image: url(/img/footer-bg.png);
+  background-image: url(/img/footer-bg.webp);
   background-size: contain;
   background-color: #084838;
 }
@@ -1057,7 +1057,7 @@ footer .widget-title {
   content: "";
   height: 100%;
   width: 110%;
-  background: url(/8.png);
+  background: url(/8.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -2245,5 +2245,5 @@ footer .widget-title {
 }
 
 .mobile-logo {
-  display:none;
+  display: none;
 }

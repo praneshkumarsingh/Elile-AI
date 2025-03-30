@@ -63,7 +63,7 @@ export const Domains = () => {
                 </div>
                 <h2 className="text-path">Solar PV</h2>
                 <img
-                  src="/img/domain/1.png"
+                  src="/img/domain/1.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -111,7 +111,7 @@ export const Domains = () => {
                 </div>
                 <h2 className="text-path">Wind Farms</h2>
                 <img
-                  src="/img/domain/2.png"
+                  src="/img/domain/2.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -159,7 +159,7 @@ export const Domains = () => {
 
                 <h2 className="text-path">Gas Turbines</h2>
                 <img
-                  src="/img/domain/3.png"
+                  src="/img/domain/3.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -207,7 +207,7 @@ export const Domains = () => {
 
                 <h2 className="text-path">Reverse Osmosis</h2>
                 <img
-                  src="/img/domain/4.png"
+                  src="/img/domain/4.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />
@@ -255,7 +255,7 @@ export const Domains = () => {
 
                 <h2 className="text-path">Data Centers</h2>
                 <img
-                  src="/img/domain/5.png"
+                  src="/img/domain/5.webp"
                   alt="Image Not Found"
                   className="img-fluid"
                 />

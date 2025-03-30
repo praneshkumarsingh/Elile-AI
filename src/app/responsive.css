@@ -52,13 +52,13 @@
 }
 
 .navbar-toggler-icon {
-  background-image: url("/menu.png") !important;
+  background-image: url("/menu.webp") !important;
   width: 2em !important;
   height: 2em !important;
 }
 
 .navbar-toggler-icon.close {
-  background-image: url("/close.png") !important;
+  background-image: url("/close.webp") !important;
   width: 2em !important;
   height: 2em !important;
 }
@@ -617,13 +617,13 @@
 }
 
 .navbar-toggler-icon {
-  background-image: url("/menu.png") !important;
+  background-image: url("/menu.webp") !important;
   width: 2em !important;
   height: 2em !important;
 }
 
 .navbar-toggler-icon.close {
-  background-image: url("/close.png") !important;
+  background-image: url("/close.webp") !important;
   width: 2em !important;
   height: 2em !important;
 }

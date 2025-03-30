@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import ContactForm from "../components/ContactForm";
 
 const page = () => {
   return (
@@ -236,57 +237,7 @@ const page = () => {
                   <h3 className="contact-form-title">
                     Please fill out the form!
                   </h3>
-                  <form action="#">
-                    <div className="row">
-                      <div className="col-xl-6 col-lg-12 col-md-6">
-                        <div className="contact-form-item mb-4">
-                          <input type="text" placeholder="Fast Name" />
-                          <i className="fa-regular fa-user"></i>
-                        </div>
-                      </div>
-                      <div className="col-xl-6 col-lg-12 col-md-6">
-                        <div className="contact-form-item mb-4">
-                          <input type="text" placeholder="Last Name" />
-                          <i className="fa-regular fa-user"></i>
-                        </div>
-                      </div>
-                      <div className="col-12">
-                        <div className="contact-form-item mb-4">
-                          <input type="email" placeholder="Your Email" />
-                          <i className="fa-regular fa-envelope"></i>
-                        </div>
-                      </div>
-                      <div className="col-12">
-                        <div className="contact-form-item mb-4">
-                          <input type="text" placeholder="Phone Number" />
-                          <i className="fa-solid fa-phone"></i>
-                        </div>
-                      </div>
-                      {/* <div className="col-12">
-                                        <div className="contact-form-item">
-                                            <select name="select" className="subject-option has-nice-select  mb-25">
-                                                <option value="1">Subject</option>
-                                                <option value="2">Subject 2</option>
-                                                <option value="3">Subject 3</option>
-                                                <option value="4">Subject 4</option>
-                                            </select>
-                                        </div>
-                                    </div>  */}
-                      <div className="col-12">
-                        <div className="contact-form-item mb-4">
-                          <textarea
-                            name="message"
-                            placeholder="Type your message"
-                          ></textarea>
-                        </div>
-                      </div>
-                      <div className="col-12">
-                        <div className="contact-form-item pt-10">
-                          <button type="button">Submit the details</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
             </div>
