@@ -18,7 +18,7 @@ const Page = () => {
         <div className="container">
           <div className="breadcrumb-item">
             <div className="row">
-              <div className="col-lg-8 ">
+              <div className="col-lg-8">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
                   <Link href="/">Home</Link> / Data Engineering
                 </nav>
@@ -31,12 +31,12 @@ const Page = () => {
       <section className="service-tab section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <div className="service-tab-wrap">
                 <DataEngineeringTab />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-10">
               <div className="service-tab-img">
                 <img src="/img/data-engineering.png" className="img-fluid" />
               </div>
@@ -57,7 +57,7 @@ const Page = () => {
             </div>
           </div>
           <div className="row pt-4">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Real-Time Data Ingestion
@@ -68,7 +68,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Advanced Data Buffering
@@ -79,7 +79,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Intelligent Synchronization
@@ -90,7 +90,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   ML-Ready Data Pipelines
@@ -101,7 +101,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Scalable Infrastructure
@@ -112,7 +112,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Customizable Workflows

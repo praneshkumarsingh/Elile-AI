@@ -2,6 +2,7 @@ import "./main.css";
 import "./responsive.css";
 import Header from "./common/header";
 import Footer from "./common/footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function RootLayout({ children }) {
   return (

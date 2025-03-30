@@ -33,12 +33,12 @@ const Page = () => {
       <section className="service-tab section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <div className="service-tab-wrap">
                 <DiagnosticsTab />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-10">
               <div className="service-tab-img">
                 <img
                   src="/img/diagnostics-dashboard.png"
@@ -61,7 +61,7 @@ const Page = () => {
             </div>
           </div>
           <div className="row pt-4">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">Automated RCA</h5>
                 <p>
@@ -70,7 +70,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Digital Twin Integration
@@ -81,7 +81,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Models for Efficiency Loss
@@ -92,7 +92,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Detailed Actionable Reports
@@ -103,7 +103,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">Rigorous Validation</h5>
                 <p>
@@ -112,7 +112,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Customizable Diagnostics

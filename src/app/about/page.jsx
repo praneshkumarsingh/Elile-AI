@@ -33,7 +33,7 @@ const page = () => {
       <section className="about-area section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-7">
               <div className="about-thumb">
                 <img
                   decoding="async"

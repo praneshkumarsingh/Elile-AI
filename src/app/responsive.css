@@ -25,6 +25,70 @@
     margin-top: 8px;
   }
 
+/* ============================================================== 
+                    Navbar  Style
+=================================================================== */
+
+
+.navbar-collapse {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  overflow-y: auto;
+  visibility: hidden;
+  background-color: #084838;
+  transition: visibility .4s ease-in-out, transform .4s ease-in-out;
+  height: 100% !important;
+  padding-top: 15px;
+}
+
+.navbar-collapse.show {
+  visibility: visible;
+  transform: translateX(-100%);
+}
+
+.navbar-toggler-icon {
+  background-image: url("/menu.png") !important;
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.navbar-toggler-icon.close {
+  background-image: url("/close.png") !important;
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+  padding: 0;
+  z-index: 9;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler[aria-expanded*="false"] {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler[aria-expanded*="true"] {
+  transform: rotate(-180deg);
+}
+
+.mobile-logo {
+  max-width: 100px;
+  height: 72px;
+  margin-bottom: 20px;
+}
   /* Home Page css */
 
   .home-content {
@@ -120,7 +184,6 @@
   .achivement-counter .fun-fact .counter {
     font-size: 40px;
   }
-
   .choose-caption {
     margin-top: 24px;
   }
@@ -527,6 +590,71 @@
     margin-top: 8px;
   }
 
+/* ============================================================== 
+                    Navbar  Style
+=================================================================== */
+
+
+.navbar-collapse {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 100%;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  overflow-y: auto;
+  visibility: hidden;
+  background-color: #084838;
+  transition: visibility .4s ease-in-out, transform .4s ease-in-out;
+  height: 100% !important;
+  padding-top: 15px;
+}
+
+.navbar-collapse.show {
+  visibility: visible;
+  transform: translateX(-100%);
+}
+
+.navbar-toggler-icon {
+  background-image: url("/menu.png") !important;
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.navbar-toggler-icon.close {
+  background-image: url("/close.png") !important;
+  width: 2em !important;
+  height: 2em !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease !important;
+  border: none !important;
+  padding: 0;
+  z-index: 9;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.navbar-toggler[aria-expanded*="false"] {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler[aria-expanded*="true"] {
+  transform: rotate(-180deg);
+}
+
+.mobile-logo {
+  max-width: 100px;
+  height: 72px;
+  margin-bottom: 20px;
+}
+
   /* Home Page css */
 
   .home-content {
@@ -605,7 +733,7 @@
   }
 
   .achivement-counter {
-    padding: 20px;
+    padding: 30px;
   }
 
   .achivement-counter li .icon {
@@ -622,7 +750,20 @@
   .achivement-counter .fun-fact .counter {
     font-size: 40px;
   }
-
+  .achivement-counter ul{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .achivement-counter li:first-child {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+    padding-right: 4rem;
+}
+.achivement-counter li {
+  margin-top: 0px;
+  border-top: none;
+  padding-top: 0px;
+}
   .choose-caption {
     margin-top: 24px;
   }
@@ -954,6 +1095,9 @@
     margin-top: 24px;
   }
 
+  .service-tab .row{
+    justify-content:center;
+  }
   .service-advantage {
     padding: 30px 0px;
   }
@@ -961,6 +1105,7 @@
   .advantage-wrap {
     padding: 20px 15px 20px 15px;
     margin-bottom: 30px;
+    height: 90%;
   }
 
   .service-advantage-title {
@@ -1005,6 +1150,10 @@
   .contact-form-title {
     font-size: 20px;
     margin-bottom: 24px;
+  }
+
+  .choose-caption .title br{
+    display:none;
   }
 }
 

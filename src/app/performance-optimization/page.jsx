@@ -33,12 +33,12 @@ const Page = () => {
       <section className="service-tab section-gap">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <div className="service-tab-wrap">
                 <PerformanceTab />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-10">
               <div className="service-tab-img">
                 <img
                   src="/img/performance-dashboard.png"
@@ -62,7 +62,7 @@ const Page = () => {
             </div>
           </div>
           <div className="row pt-4">
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   AI-Driven Load Balancing
@@ -73,7 +73,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Predictive Analytics
@@ -84,7 +84,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Dynamic Resource Allocation
@@ -95,7 +95,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Energy Efficiency Modelling
@@ -106,7 +106,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Real-Time Monitoring
@@ -117,7 +117,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-4 col-md-6">
               <div className="advantage-wrap">
                 <h5 className="service-advantage-title">
                   Data-Driven Decisions
