@@ -22,9 +22,9 @@ const page = () => {
             <div className="row">
               <div className="col-lg-8 ">
                 <nav className="woocommerce-breadcrumb" aria-label="Breadcrumb">
-                  <Link href="/">Home</Link> / Our Ceo
+                  <Link href="/">Home</Link> / Our CEO
                 </nav>
-                <h1 className="breadcumb-title">Our Ceo</h1>
+                <h1 className="breadcumb-title">Our CEO</h1>
               </div>
             </div>
           </div>
