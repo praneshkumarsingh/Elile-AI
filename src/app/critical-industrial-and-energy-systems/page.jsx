@@ -152,7 +152,7 @@ const ServiceDetail = () => {
                   <ul className="list-unstyled">
                     <li>
                       <div className="icon">
-                        <img src="/check.svg" />
+                        <img src="/check.webp" />
                       </div>
                       <div className="text">
                         <h3>
@@ -163,7 +163,7 @@ const ServiceDetail = () => {
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/check.svg" />
+                        <img src="/check.webp" />
                       </div>
                       <div className="text">
                         <h3>
@@ -174,7 +174,7 @@ const ServiceDetail = () => {
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/check.svg" />
+                        <img src="/check.webp" />
                       </div>
                       <div className="text">
                         <h3>
@@ -185,7 +185,7 @@ const ServiceDetail = () => {
                     </li>
                     <li>
                       <div className="icon">
-                        <img src="/check.svg" />
+                        <img src="/check.webp" />
                       </div>
                       <div className="text">
                         <h3>
@@ -196,7 +196,7 @@ const ServiceDetail = () => {
                     </li>
                     <li className="mb-0">
                       <div className="icon">
-                        <img src="/check.svg" />
+                        <img src="/check.webp" />
                       </div>
                       <div className="text">
                         <h3>99.999% uptime for mission-critical operations</h3>

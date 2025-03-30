@@ -56,7 +56,7 @@ const Page = () => {
             <div className="col-lg-12 text-center">
               <h3 className="title">
                 Features for precise diagnostics
-                <br />& timely remediation
+                <br /> & timely remediation
               </h3>
             </div>
           </div>

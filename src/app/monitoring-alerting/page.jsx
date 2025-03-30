@@ -56,8 +56,7 @@ const Page = () => {
             <div className="col-lg-12 text-center">
               <h3 className="title">
                 Capabilities for real-time, precision
-                <br />
-                monitoring
+                <br /> monitoring
               </h3>
             </div>
           </div>

@@ -56,8 +56,7 @@ const Page = () => {
             <div className="col-lg-12 text-center">
               <h3 className="title">
                 Advanced features for performance
-                <br />
-                enhancement
+                <br /> enhancement
               </h3>
             </div>
           </div>
