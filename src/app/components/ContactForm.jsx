@@ -1,52 +1,39 @@
 "use client";
-import { useState } from "react";
+
+import { useForm } from "react-hook-form";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    message: "",
-  });
+  const { register, handleSubmit, reset } = useForm();
 
-  const [status, setStatus] = useState("");
+  const onSubmit = async (data) => {
+    const response = await fetch("/api/sendMail", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      const data = await response.json();
-      if (response.ok) {
-        setStatus("Your message has been sent successfully!");
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          message: "",
-        });
-      } else {
-        setStatus(data.error || "Something went wrong.");
-      }
-    } catch (error) {
-      setStatus("Network error. Please try again later.");
+    const result = await response.json();
+    if (result.success) {
+      document.getElementById("toastMessage").innerText =
+        "Email sent successfully!";
+      const toastEl = new bootstrap.Toast(document.getElementById("liveToast"));
+      document.getElementById("liveToast").classList.remove("text-bg-danger");
+      document.getElementById("liveToast").classList.add("text-bg-success");
+      toastEl.show();
+      reset();
+    } else {
+      document.getElementById("toastMessage").innerText =
+        "Failed to send email.";
+      const toastEl = new bootstrap.Toast(document.getElementById("liveToast"));
+      document.getElementById("liveToast").classList.remove("text-bg-success");
+      document.getElementById("liveToast").classList.add("text-bg-danger");
+      toastEl.show();
     }
   };
-
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit(onSubmit)}>
       <div className="row">
         <div className="col-xl-6 col-lg-12 col-md-6">
           <div className="contact-form-item mb-4">
@@ -54,9 +41,8 @@ export default function ContactForm() {
               type="text"
               name="firstName"
               placeholder="First Name"
-              value={formData.firstName}
-              onChange={handleChange}
               required
+              {...register("firstName")}
             />
             <i className="fa-regular fa-user"></i>
           </div>
@@ -67,9 +53,8 @@ export default function ContactForm() {
               type="text"
               name="lastName"
               placeholder="Last Name"
-              value={formData.lastName}
-              onChange={handleChange}
               required
+              {...register("lastName")}
             />
             <i className="fa-regular fa-user"></i>
           </div>
@@ -80,9 +65,8 @@ export default function ContactForm() {
               type="email"
               name="email"
               placeholder="Your Email"
-              value={formData.email}
-              onChange={handleChange}
               required
+              {...register("email")}
             />
             <i className="fa-regular fa-envelope"></i>
           </div>
@@ -93,9 +77,8 @@ export default function ContactForm() {
               type="text"
               name="phone"
               placeholder="Phone Number"
-              value={formData.phone}
-              onChange={handleChange}
               required
+              {...register("phone")}
             />
             <i className="fa-solid fa-phone"></i>
           </div>
@@ -105,9 +88,8 @@ export default function ContactForm() {
             <textarea
               name="message"
               placeholder="Type your message"
-              value={formData.message}
-              onChange={handleChange}
               required
+              {...register("message")}
             ></textarea>
           </div>
         </div>
@@ -117,7 +99,6 @@ export default function ContactForm() {
           </div>
         </div>
       </div>
-      {status && <p>{status}</p>}
     </form>
   );
 }

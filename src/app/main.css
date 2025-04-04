@@ -2261,3 +2261,10 @@ footer .widget-title {
 .mobile-logo {
   display: none;
 }
+
+.toastMsg {
+  position: absolute;
+  bottom: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

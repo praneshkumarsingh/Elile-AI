@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
-
 const page = () => {
   return (
     <>
@@ -232,12 +231,33 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 tp_fade_left">
-                <div className="contact-form mt-40 mt-lg-0">
+              <div className="col-lg-6">
+                <div className="contact-form mt-lg-0 position-relative">
                   <h3 className="contact-form-title">
                     Please fill out the form!
                   </h3>
                   <ContactForm />
+                  <div className="toastMsg">
+                    <div
+                      id="liveToast"
+                      className="toast align-items-center text-bg-success border-0"
+                      role="alert"
+                      aria-live="assertive"
+                      aria-atomic="true"
+                    >
+                      <div className="d-flex">
+                        <div className="toast-body" id="toastMessage">
+                          Email sent successfully!
+                        </div>
+                        <button
+                          type="button"
+                          className="btn-close btn-close-white me-2 m-auto"
+                          data-bs-dismiss="toast"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
