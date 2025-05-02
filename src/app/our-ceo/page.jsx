@@ -71,29 +71,35 @@ const page = () => {
             <div className="col-lg-8">
               <div className="about-details custom-layout text-start">
                 <p className="desc">
-                  Dr. Muhammad Mehdi is the Founder and CEO of Elile AI, a
-                  sustainable and climate technology company specializing in
-                  green data center solutions and AI-powered infrastructure.
-                  Prior to Elile AI, Dr. Mehdi spent over 20 years working with
-                  industry giants. He was GM, AI Media for Amazon Ad Tech, and
-                  Head of AI at Microsoft Research, Autonomous AI team, and Head
-                  of Microsoft Azure Cloud Reliability and Capacity Planning.
+                  Dr. Muhammad Mehdi is the Founder and CEO of Elile AI, an
+                  energy and compute technology company specializing in AI
+                  powered infrastructure powering next generation data centers
+                  and collocated energy infrastructure. Prior to Elile AI, Dr.
+                  Mehdi spent over 20 years working with industry giants. He was
+                  GM, AI Media for Amazon Ad Tech, and Head of AI at Microsoft
+                  Research, Autonomous AI team, and Head of Microsoft Azure
+                  Cloud Reliability and Capacity Planning.
                 </p>
                 <p className="desc">
-                  With a deep foundation in machine learning, artificial
-                  intelligence, and data center management, Dr. Mehdi is a
-                  pioneer in large language model (LLM) infrastructure. Notably,
-                  he was the first architect to build the OpenAI infrastructure
-                  within Microsoft, significantly shaping the AI and data center
-                  landscape.
+                  With an extensive experience in artificial intelligence, and
+                  data center management, Dr. Mehdi is a pioneer in large
+                  language model (LLM) infrastructure. Notably, he was one of
+                  the early engineers in Microsoft Azure Cloud, and the first
+                  architect to build the OpenAI infrastructure within Microsoft,
+                  significantly shaping the AI and data center landscape.
                 </p>
                 <p className="desc">
-                  Dr. Mehdi focuses on eco-friendly AI systems and sustainable
+                  Dr. Mehdi focuses on sustainable AI systems and sustainable
                   computing, by optimizing power, cooling, and workload
                   orchestration in data centers. His commitment to climate tech
                   has driven Elile AI to innovate in power management systems,
                   digital twins, and advanced asset performance management,
                   particularly in renewable energy integration.
+                </p>
+                <p className="desc">
+                  He is driven by the mission to bring energy and compute for
+                  every person on the planet by removing the systemic barriers
+                  prevalent today.
                 </p>
               </div>
             </div>
