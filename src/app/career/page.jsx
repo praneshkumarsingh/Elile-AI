@@ -118,7 +118,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -198,7 +198,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -265,7 +265,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -334,7 +334,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -399,7 +399,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -465,7 +465,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -528,7 +528,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
@@ -591,7 +591,7 @@ const page = () => {
                   )}
                 </div>
                 <div className="job-footer">
-                  <a className="default-btn" href="mailto:info@elile.ai">
+                  <a className="default-btn" href="mailto:people@elile.ai">
                     Apply Now
                   </a>
                 </div>
