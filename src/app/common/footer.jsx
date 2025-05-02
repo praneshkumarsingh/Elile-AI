@@ -65,6 +65,9 @@ const Footer = () => {
                       <li className="menu-item">
                         <Link href="/contact">Contact</Link>
                       </li>
+                      <li className="menu-item">
+                        <Link href="/career">Join Us</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
