@@ -2286,6 +2286,7 @@ footer .widget-title {
   -ms-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
+  height: 90%;
 
 }
 
