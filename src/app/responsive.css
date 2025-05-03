@@ -40,7 +40,7 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #084838;
+    background-color: #011337;
     transition: visibility .4s ease-in-out, transform .4s ease-in-out;
     height: 100% !important;
     padding-top: 15px;
@@ -607,7 +607,7 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #084838;
+    background-color: #011337;
     transition: visibility .4s ease-in-out, transform .4s ease-in-out;
     height: 100% !important;
     padding-top: 15px;
