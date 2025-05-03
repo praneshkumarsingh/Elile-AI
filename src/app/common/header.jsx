@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className={`navbar navbar-expand-lg ${scrolled ? "scrolled" : ""}`}>
         <div className="container-fluid">
           <a className="navbar-brand py-0" href="/">
-            <img src="/logo.webp" width={110} height={80} alt="Elile Logo" />
+            <img src="/logo.png" width={110} height={80} alt="Elile Logo" />
           </a>
           <button
             className="navbar-toggler"

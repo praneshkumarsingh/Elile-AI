@@ -15,7 +15,7 @@
   border: 2px dashed #448C74;
   padding: 10px;
   border-radius: 50%;
-  max-width: 78%;
+  max-width: 90%;
 }
 
 .about-content .title {
@@ -33,7 +33,7 @@
   border: 1px solid #eee;
   padding: 10px 12px;
   border-radius: 10px;
-  color: #084838;
+  color: #011337;
 }
 
 .about-social ul {
@@ -46,13 +46,13 @@
 }
 
 .about-details .desc {
-  font-size: 16px;
+  font-size: 14.8px;
   margin-bottom: 17px;
 }
 
 .feature-style-one {
   padding: 40px;
-  background: linear-gradient(0deg, #F3F8F4 40%, #FBFBFD00 60%);
+  background: linear-gradient(0deg, #b8e2fa66 40%, #FFF 60%);
   border-radius: 10px;
   border: 2px solid #e9e9e9;
 }
@@ -64,7 +64,7 @@
 }
 
 .experience {
-  background: #F3F8F4;
+  background: #f5fbfe;
 }
 
 .single-resume {
@@ -108,7 +108,7 @@
 .feature-style-one h4 {
   font-size: 20px;
   font-weight: 600;
-  color: #084838;
+  color: #011337;
 }
 
 .feature-style-one li {
