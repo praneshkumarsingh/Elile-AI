@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ContactForm from "../components/ContactForm";
+import ContactSheet from ../components/ContactSheetet";
 const page = () => {
   return (
     <>
@@ -236,7 +236,7 @@ const page = () => {
                   <h3 className="contact-form-title">
                     Please fill out the form!
                   </h3>
-                  <ContactForm />
+                  <ContactSheet />
                   <div className="toastMsg">
                     <div
                       id="liveToast"
