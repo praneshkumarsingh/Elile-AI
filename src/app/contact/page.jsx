@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import ContactSheet from ../components/ContactSheetet";
+import ContactSheet from "../components/ContactSheet";
 const page = () => {
   return (
     <>
