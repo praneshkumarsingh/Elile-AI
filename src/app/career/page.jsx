@@ -45,6 +45,68 @@ const page = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="jobs-item">
+                <h5>AI Quality Engineer</h5>
+                <ul className="job-header-info list-unstyled">
+                  <li>
+                    <FaLocationDot /> Onsite / Muscat, Oman
+                  </li>
+                  <li>
+                    <TbBriefcaseFilled /> 4+ years
+                  </li>
+                </ul>
+                <div>
+                  <p>
+                    We are seeking a highly skilled AI Quality Engineer to join
+                    our National Large Language Model (LLM) Project. This key
+                    role will focus on establishing and implementing robust data
+                    quality frameworks, evaluation methodologies, and quality
+                    gates throughout the LLM development lifecycle. The ideal
+                    candidate will ensure our Arabic LLM meets the highest
+                    standards of performance, reliability, and cultural
+                    appropriateness before being deployed to 20,000 government
+                    employees.
+                  </p>
+                </div>
+                <div className="job-footer">
+                  <Link className="default-btn" href="/ai-quality-engineer">
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="jobs-item">
+                <h5>AI Expert and Consultant</h5>
+                <ul className="job-header-info list-unstyled">
+                  <li>
+                    <FaLocationDot /> Onsite / Muscat, Oman
+                  </li>
+                  <li>
+                    <TbBriefcaseFilled /> 5+ years
+                  </li>
+                </ul>
+                <div>
+                  <p>
+                    We are seeking an experienced AI Expert and Consultant to
+                    join our National Large Language Model (LLM) Project,
+                    replacing ChatGPT usage in the workplace. As a key technical
+                    advisor, you will provide expertise across the full LLM
+                    stack, from model training and fine-tuning to deployment and
+                    RAG implementation.
+                  </p>
+                </div>
+                <div className="job-footer">
+                  <Link
+                    className="default-btn"
+                    href="/ai-expert-and-consultant"
+                  >
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="jobs-item">
                 <h5>AI Architect</h5>
                 <ul className="job-header-info list-unstyled">
                   <li>
