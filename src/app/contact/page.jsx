@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import ContactSheet from "../components/ContactSheet";
+// import ContactForm from "../components/ContactForm";
 const page = () => {
   return (
     <>
@@ -237,6 +238,7 @@ const page = () => {
                     Please fill out the form!
                   </h3>
                   <ContactSheet />
+                  {/* <ContactForm /> */}
                   <div className="toastMsg">
                     <div
                       id="liveToast"

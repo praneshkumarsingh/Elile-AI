@@ -34,3 +34,42 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+import nodemailer from "nodemailer";
+
+export async function POST(req) {
+try {
+const data = await req.json();
+console.log("Received data:", data);
+const transporter = nodemailer.createTransport({
+host: "smtp.office365.com",
+port: 587,
+secure: false, // Use TLS
+auth: {
+user: process.env.SMTP_USERNAME,
+pass: process.env.SMTP_PASSWORD,
+},
+});
+
+    const mailOptions = {
+      // from: data.email,
+      from: process.env.SMTP_USERNAME,
+      to: process.env.MAIL_RECEIVER_ADDRESS,
+      subject: `Contact Form: ${data.firstName} ${data.lastName}`,
+      text: `
+        Name: ${data.firstName} ${data.lastName}
+        Email: ${data.email}
+        Phone: ${data.phone}
+        Message: ${data.message}
+      `,
+    };
+
+    await transporter.sendMail(mailOptions);
+
+    return new Response(JSON.stringify({ success: true }), { status: 200 });
+
+} catch (error) {
+console.error(error);
+return new Response(JSON.stringify({ success: false }), { status: 500 });
+}
+}

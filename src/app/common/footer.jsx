@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Newsletter from "../components/NewsLetter";
 
 const Footer = () => {
   return (
@@ -109,17 +110,28 @@ const Footer = () => {
                     industry insights.
                   </p>
                   <div className="newsletter">
-                    <form className="newsletter-form">
-                      <input
-                        type="email"
-                        placeholder="Your Email"
-                        className="form-control"
-                        name="email"
-                      />
-                      <button type="submit">
-                        <i className="fa fa-paper-plane text-light"></i>
-                      </button>
-                    </form>
+                    <Newsletter />
+                    <div className="toastMsg">
+                      <div
+                        id="liveToast"
+                        className="toast align-items-center text-bg-success border-0"
+                        role="alert"
+                        aria-live="assertive"
+                        aria-atomic="true"
+                      >
+                        <div className="d-flex">
+                          <div className="toast-body" id="toastMessage">
+                            Email sent successfully!
+                          </div>
+                          <button
+                            type="button"
+                            className="btn-close btn-close-white me-2 m-auto"
+                            data-bs-dismiss="toast"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

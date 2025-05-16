@@ -5,7 +5,9 @@ export async function POST(req) {
     const data = await req.json();
     console.log("Received data:", data);
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.office365.com",
+      port: 587,
+      secure: false, // Use TLS
       auth: {
         user: process.env.SMTP_USERNAME,
         pass: process.env.SMTP_PASSWORD,
@@ -13,14 +15,12 @@ export async function POST(req) {
     });
 
     const mailOptions = {
-      from: data.email,
+      // from: data.email,
+      from: process.env.SMTP_USERNAME,
       to: process.env.MAIL_RECEIVER_ADDRESS,
-      subject: `Contact Form: ${data.firstName} ${data.lastName}`,
+      subject: `Newsletter`,
       text: `
-        Name: ${data.firstName} ${data.lastName}
         Email: ${data.email}
-        Phone: ${data.phone}
-        Message: ${data.message}
       `,
     };
 
