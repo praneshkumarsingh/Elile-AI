@@ -85,7 +85,7 @@ export const Journey = () => {
             </h5>
             <p>
               Built AI solutions for gas turbines, solar plants, wind turbines,
-              and desal plants.
+              and desalination plants.
             </p>
           </div>
         </SwiperSlide>
