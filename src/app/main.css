@@ -2328,3 +2328,7 @@ footer .widget-title {
   color: #7F879E;
   margin-bottom: 20px;
 }
+
+.career-list li a {
+  text-decoration: underline !important;
+}

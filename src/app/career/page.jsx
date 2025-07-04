@@ -45,6 +45,33 @@ const page = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="jobs-item">
+                <h5>AI Engineer - Next Generation AI-native Applications</h5>
+                <ul className="job-header-info list-unstyled">
+                  <li>
+                    <FaLocationDot /> Remote
+                  </li>
+                  {/* <li>
+                    <TbBriefcaseFilled /> 4+ years
+                  </li> */}
+                </ul>
+                <div>
+                  <p>
+                    We're building AI-native applications that transform messy, real-world data into
+                    actionable intelligence. You'll work on cutting-edge AI agents, production systems, and
+                    applications that directly impact critical decision-making.
+                    This is a builder's role - we need someone who ships fast, learns faster, and thrives with
+                    minimal supervision.
+                  </p>
+                </div>
+                <div className="job-footer">
+                  <Link className="default-btn" href="/ai-engineer">
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="jobs-item">
                 <h5>AI Quality Engineer</h5>
                 <ul className="job-header-info list-unstyled">
                   <li>
