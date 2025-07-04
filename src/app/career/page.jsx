@@ -50,9 +50,9 @@ const page = () => {
                   <li>
                     <FaLocationDot /> Remote
                   </li>
-                  {/* <li>
-                    <TbBriefcaseFilled /> 4+ years
-                  </li> */}
+                  <li>
+                    <TbBriefcaseFilled /> 3+ years
+                  </li> 
                 </ul>
                 <div>
                   <p>
