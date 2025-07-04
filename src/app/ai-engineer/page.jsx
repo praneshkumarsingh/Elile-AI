@@ -173,7 +173,6 @@ const page = () => {
                                 <Link
                                     className="default-btn"
                                     href="mailto:people@elile.ai"
-                                    target="_blank"
                                 >
                                     Apply Now
                                 </Link>
