@@ -172,7 +172,7 @@ const page = () => {
                             <div className="job-footer mt-4">
                                 <Link
                                     className="default-btn"
-                                    href="https://forms.gle/prXqdMLTpZ3xH4mS7"
+                                    href="mailto:people@elile.ai"
                                     target="_blank"
                                 >
                                     Apply Now
