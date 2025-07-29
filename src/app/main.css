@@ -2332,3 +2332,9 @@ footer .widget-title {
 .career-list li a {
   text-decoration: underline !important;
 }
+
+.career-detail .job-subtitle {
+  margin-bottom: 8px;
+  color: #011337;
+  font-weight: 500;
+}

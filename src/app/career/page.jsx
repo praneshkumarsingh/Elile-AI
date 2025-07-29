@@ -45,6 +45,51 @@ const page = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div className="jobs-item">
+                <h5>Senior Infrastructure Engineer </h5>
+                <ul className="job-header-info list-unstyled">
+                  <li>
+                    <FaLocationDot /> Remote
+                  </li>
+                  <li>
+                    <TbBriefcaseFilled /> 3+ years
+                  </li>
+                </ul>
+                <div>
+                  <p>
+                    We are seeking an experienced Senior Infrastructure Engineer to lead the design, deployment, and maintenance of our on-premises Kubernetes-based data center infrastructure. This is a hands-on role encompassing physical hardware, virtualization, and cluster administration. You will ensure high availability, performance, and scalability while enabling secure and efficient workloads for both developers and operations.
+                  </p>
+                </div>
+                <div className="job-footer">
+                  <Link className="default-btn" href="/senior-infrastructure-engineer">
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="jobs-item">
+                <h5>DevOps / Platform Engineer </h5>
+                <ul className="job-header-info list-unstyled">
+                  <li>
+                    <FaLocationDot /> Remote
+                  </li>
+                  <li>
+                    <TbBriefcaseFilled /> 3+ years
+                  </li>
+                </ul>
+                <div>
+                  <p> We are hiring a DevOps / Platform Engineer to build and support internal developer platforms running on our Kubernetes-based on-prem infrastructure. You’ll own CI/CD pipelines, infrastructure-as-code automation, and GitOps workflows to accelerate development and deployment velocity. This role ensures our development teams can build, ship, and scale with minimal friction in a secure and resilient environment.
+                  </p>
+                </div>
+                <div className="job-footer">
+                  <Link className="default-btn" href="/devops-platform-engineer">
+                    Read More
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="jobs-item">
                 <h5>AI Engineer - Next Generation AI-native Applications</h5>
                 <ul className="job-header-info list-unstyled">
                   <li>
@@ -52,7 +97,7 @@ const page = () => {
                   </li>
                   <li>
                     <TbBriefcaseFilled /> 3+ years
-                  </li> 
+                  </li>
                 </ul>
                 <div>
                   <p>
